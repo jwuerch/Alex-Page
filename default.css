@@ -617,6 +617,28 @@ ul.style1 h4
 
 }
 
+/*** SAFARI ONLY ***/
+
+
+
+@media screen and (min-color-index:0) and(-webkit-min-device-pixel-ratio:0) 
+{ @media screen and (min-width:769px) {
+    .navbar-container-fluid { 
+
+        margin-top:-20px !important;
+
+    }
+}}
+
+@media screen and (min-color-index:0) and(-webkit-min-device-pixel-ratio:0) 
+{ @media screen and (min-width:769px) {
+
+        .active > a {
+        	margin-top: -55px !important;
+    }
+}}
+
+
 	
 
 	
